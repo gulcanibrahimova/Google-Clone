@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+
+}
+.s-icon, .v-icon, .menu {
+    width: 20px;
+}
+.logo {
+    width: 272px; height: 92px;
+    margin-bottom: 15px;
+   
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+
+}
+nav a {
+    color: black;
+    padding: 5px 7px;
+
+}
+ nav button {
+    background: #1a73e8;
+    padding: 7px 12px;
+    color: #fafafa;
+    cursor:pointer;
+    border:1px solid transparent;
+    margin: 12px
+}
+section{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.s-box {
+    width: 600px ;
+    text-align: center;
+    position: relative;
+
+}
+ .s-box .s-input{
+
+    width: 100%;
+    padding: 13px;
+    border-radius: 25px;
+    padding-left: 55px;
+    padding-right: 60px;
+    border: 1px solid #dfe1e5;
+    outline: none;
+
+}
+.s-icon{
+    opacity: .5; 
+    position: absolute;
+    top: 13px;
+    left: 22px;
+
+}
+.v-icon{
+    position: absolute;
+    top: 13px;
+    right: 22px;
+}
+
+.s-btn {
+    background: #f8f9fa;
+    margin:  28px 11px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    padding: 9px 16px;
+    
+   
+}
+footer{
+    background: #f2f2f2;
+}
+footer h4 {
+    color:#70757a;
+    padding:15px;
+    border-bottom: 1px solid #dadce0;
+    
+}
+footer a {
+    color: #70757a;
+}
+
+.links{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.link-left-side a {
+  padding: 5px;
+  }
+
+  .link-right-side a {
+    padding: 5px;
+}
